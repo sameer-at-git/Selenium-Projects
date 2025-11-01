@@ -8,3 +8,4 @@ openpyxl
 schedule
 python-dotenv
 tqdm
+yt-dlp
