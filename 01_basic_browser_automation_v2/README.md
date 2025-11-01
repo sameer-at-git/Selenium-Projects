@@ -1,20 +1,11 @@
-# basic_browser_automation
 
----
+## Project Overview
 
-## Goal: Get comfortable with Selenium commands and the DOM.
+This project demonstrates **basic form of website validation using Selenium**. It opens a website, maximizes the browser window, retrieves the page title, and performs an assertion to verify the title.
 
-Tasks:
+### Features
 
-- Open browser, visit a few sites automatically
-
-- Search something on Google and fetch first 5 results’ titles
-
-- Take screenshots of each site
-
-## Learn:
-
-- launching drivers,
-- locating elements (find_element),
-- waiting (WebDriverWait),
-- screenshots.
+- Open a specific website using Selenium.
+- Maximize the browser window automatically.
+- Retrieve and print the page title.
+- Perform assertion to validate the page title.

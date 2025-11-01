@@ -1,20 +1,19 @@
-# basic_browser_automation
+## Project Overview
 
----
+This project demonstrates **basic browser automation using Selenium**. It opens multiple websites, performs a Google search, and takes screenshots of pages.
 
-## Goal: Get comfortable with Selenium commands and the DOM.
+### Features
 
-Tasks:
+- Open and interact with multiple websites.
+- Perform Google search automation.
+- Capture screenshots of visited pages.
+- Save screenshots into a local `screenshots` folder.
 
-- Open browser, visit a few sites automatically
+### How to Run
 
-- Search something on Google and fetch first 5 results’ titles
-
-- Take screenshots of each site
-
-## Learn:
-
-- launching drivers,
-- locating elements (find_element),
-- waiting (WebDriverWait),
-- screenshots.
+1. Ensure Python 3.11+ is installed.
+2. Install required packages:
+   pip install selenium webdriver-manager
+3. Run the script:
+   python main.py
+4. Screenshots will be saved in the `screenshots` directory.
