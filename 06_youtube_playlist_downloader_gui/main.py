@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 import csv
 import time
 import yt_dlp
+import os
 
 playlist_url="https://www.youtube.com/playlist?list=PL7adgeF1zC0Q1BwNpgYfd8iYL1aYXNH2Z"
 
@@ -24,7 +25,14 @@ with open("playlist_videos.csv","w",newline="",encoding="utf-8") as f:
 
 driver.quit()
 
-ydl_opts={'outtmpl':'%(title)s.%(ext)s','format':'bestvideo+bestaudio/best','ignoreerrors':True}
+download_path = r"D:\MyVideos" 
+os.makedirs(download_path, exist_ok=True)
+
+ydl_opts={
+    'outtmpl':os.path.join(download_path, '%(title)s.%(ext)s'),
+    'format':'bestvideo+bestaudio/best',
+    'ignoreerrors':True
+    }
 
 def progress(d):
     if d['status']=='downloading':
