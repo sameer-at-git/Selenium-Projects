@@ -8,4 +8,5 @@ title = browser.title
 print(title)
 
 #assert "AIUb" in title #assertion error
+
 assert "AIUB" in title
