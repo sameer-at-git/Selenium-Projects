@@ -6,7 +6,7 @@ This project demonstrates **automated job scraping and simulated applications us
 
 - Open a job listings website.
 - Scrape job title, company, location, posting date, and application link.
-- Save all scraped job data into `jobs.csv`.
-- Automatically visit each job's "Apply" link to simulate applications.
-- Print status messages for each applied job.
-- Close the browser after completing the process.
+- Save all scraped job data into `jobs.csv`
+- Automatically visit each job's "Apply" link to simulate applications
+- Print status messages for each applied job
+- Close the browser after completing the process
